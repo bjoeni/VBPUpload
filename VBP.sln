@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBP", "VBP\VBP.vbproj", "{C00ED48C-6B8F-4E67-B9F5-2812E9FE4E76}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBP.connect", "VBP.connect\VBP.connect.vbproj", "{99062EDA-BAD4-4008-B8FB-C665B4369C31}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBP.installer", "VBP.installer\VBP.installer.vbproj", "{C471258F-8B81-4E0C-9D3B-81032BDA5AE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C00ED48C-6B8F-4E67-B9F5-2812E9FE4E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00ED48C-6B8F-4E67-B9F5-2812E9FE4E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00ED48C-6B8F-4E67-B9F5-2812E9FE4E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00ED48C-6B8F-4E67-B9F5-2812E9FE4E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99062EDA-BAD4-4008-B8FB-C665B4369C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99062EDA-BAD4-4008-B8FB-C665B4369C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99062EDA-BAD4-4008-B8FB-C665B4369C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99062EDA-BAD4-4008-B8FB-C665B4369C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C471258F-8B81-4E0C-9D3B-81032BDA5AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C471258F-8B81-4E0C-9D3B-81032BDA5AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C471258F-8B81-4E0C-9D3B-81032BDA5AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C471258F-8B81-4E0C-9D3B-81032BDA5AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

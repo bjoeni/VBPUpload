@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "VBPUpload",
+  "version": "1.0",
+  "content_scripts": [
+    {
+	  "matches": [
+	    "http://www.vb-paradise.de/index.php?form=ThreadAdd*",
+		"http://www.vb-paradise.de/index.php?form=PostAdd*",
+		"http://www.vb-paradise.de/index.php?form=PostEdit*"
+	  ],
+	  "js": ["script.js"],
+	  "run_at": "document_end"
+	}
+  ],
+  "permissions": [
+    "*://www.vb-paradise.de/*",
+	"http://localhost:7410/*"
+  ]
+}
